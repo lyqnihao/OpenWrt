@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   # 定时触发
   schedule:
-    - cron: 0 18 * * * # 北京时间每天 2:00（UTC时间 18:00）
+  - cron: 0 18 * * * # 北京时间每天 2:00（UTC时间 18:00）
   # 手动触发
   workflow_dispatch:
 
